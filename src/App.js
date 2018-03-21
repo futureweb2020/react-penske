@@ -6,6 +6,7 @@ import { PersistGate } from 'redux-persist/es/integration/react';
 
 import EmployeesList from './containers/employees/list';
 import EmployeesInspections from './containers/employees/inspections';
+import SignIn from './containers/signin/signin';
 import store, { history, persistor } from './store';
 import logo from './logo.svg';
 import './App.css';
@@ -22,6 +23,7 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={EmployeesList} />
                 <Route exact path='/inspections' component={EmployeesInspections} />
+                <Route exact path='/signin' component={SignIn} />
               </Switch>
             </div>
           </ConnectedRouter>

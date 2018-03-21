@@ -16,6 +16,7 @@ export function* loadEmployeesData(action) {
         yield put({ type: employeesActions.unsetLoading });
     } else {
         // Do something when api call failed
+        console.log("Error Occurred.");
     }
 }
 

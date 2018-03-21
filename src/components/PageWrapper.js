@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 `
 
 const MainWrapper = styled.div`
-  display: flex;
+  display: flex;  
   flex-direction: row;
   flex: 1 1 auto;
   align-items: center;
@@ -26,8 +26,8 @@ const MainWrapper = styled.div`
 const ContentWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  width: 1050px;
-  min-width: 1050px;
+  width: 1200px;
+  min-width: 1200px;
 `
 
 const muiTheme = getMuiTheme({
@@ -41,8 +41,10 @@ const muiTheme = getMuiTheme({
 const PageWrapper = (props) => (
   <MuiThemeProvider muiTheme={muiTheme}>
     <Wrapper>
-      <Navigation />
-      <TopBar title={props.topBarTitle} onFilter={props.topBarOnFilter} filterable={props.filterable} />
+      { props.signinform !== 'yes' 
+        && <Navigation />
+        && <TopBar title={props.topBarTitle} onFilter={props.topBarOnFilter} filterable={props.filterable} />
+      }
       <MainWrapper>
         <ContentWrapper>
             { props.children }

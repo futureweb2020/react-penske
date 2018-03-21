@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="81px" viewBox="0 0 100 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Statistics</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sidebar-+-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage--&gt;-Organisation-Copy" transform="translate(-112.000000, -480.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(60.000000, 114.000000)">
+                <g id="Statistics" transform="translate(52.000000, 366.000000)">
+                    <g id="Group" transform="translate(0.000000, 6.250000)">
+                        <path d="M79.225,45.15 C77.475,52.175 73.675,58.5 68.3,63.325 L44.025,36.35 L79.225,45.15 Z" id="Shape" fill="#DB6E6E"></path>
+                        <path d="M52.8,1.175 C72.25,6.025 84.075,25.725 79.225,45.15 L44.025,36.375 L52.8,1.175 Z" id="Shape" fill="#F7B452"></path>
+                        <path d="M23.2,6.65 C31.8,0.625 42.6,-1.375 52.8,1.175 L44.025,36.375 L23.2,6.65 Z" id="Shape" fill="#ABC66A"></path>
+                        <path d="M25.875,67.8 C15.125,61.6 8.3,50.35 7.775,37.95 C7.225,25.55 13.05,13.75 23.2,6.65 L44.025,36.375 L25.875,67.8 Z" id="Shape" fill="#6B9CD1"></path>
+                        <path d="M22.05,74.275 C9.05,66.775 0.775,53.125 0.1,38.125 C-0.55,23.125 6.5,8.8 18.8,0.2 L44.025,36.225 L22.05,74.275 Z" id="Shape" fill="#6B9CD1" opacity="0.43"></path>
+                        <path d="M68.3,63.35 C56.625,73.875 39.5,75.675 25.875,67.8 L44.025,36.375 L68.3,63.35 Z" id="Shape" fill="#FFE669"></path>
+                    </g>
+                    <path d="M95.75,0.025 L69.975,0.025 C67.675,0.025 65.8,1.9 65.8,4.2 L65.8,14.425 L65.8,15.35 L65.8,25.4 L73.375,19.525 L95.75,19.525 C98.05,19.525 99.925,17.65 99.925,15.35 L99.925,4.2 C99.95,1.9 98.05,0.025 95.75,0.025 Z" id="Shape" fill="#EEEEEE"></path>
+                    <path d="M96.7,4.625 L70.075,4.625 C69.65,4.625 69.325,4.975 69.325,5.375 L69.325,9.075 C69.325,9.5 69.675,9.825 70.075,9.825 L96.7,9.825 C97.125,9.825 97.45,9.475 97.45,9.075 L97.45,5.4 C97.475,4.975 97.125,4.625 96.7,4.625 Z" id="Shape" fill="#BDC3C7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
