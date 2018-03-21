@@ -4,6 +4,7 @@ import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
 import employees from './employees';
+import blog from './blog';
 
 const config = {
     key: 'root',
@@ -12,7 +13,8 @@ const config = {
 
 const rootReducer = combineReducers({ 
     routing: routerReducer,
-    employees
+    employees,
+    blog
 });
 
 const appReducer = persistReducer(config, rootReducer);
